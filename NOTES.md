@@ -1,0 +1,11 @@
+#Play-by-Play
+
+1. $ rails new task
+
+2. $ rails generate model Ad title:string description:string company:string url:string
+
+3. $ rails db:migrate
+
+4. $ rails generate controller Ads
+
+5. 
