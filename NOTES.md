@@ -8,4 +8,6 @@
 
 4. $ rails generate controller Ads
 
-5. 
+5. add simple_form, haml && bootstrap-sass to Gemfile
+
+6. configure simple_form
