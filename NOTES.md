@@ -11,3 +11,9 @@
 5. add simple_form, haml && bootstrap-sass to Gemfile
 
 6. configure simple_form
+
+7. configure bootstrap-sass
+
+8. add a form to ads/_form.html.haml __ partial
+
+9.

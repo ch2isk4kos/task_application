@@ -1,0 +1,7 @@
+= simple_form_for(@ad, html: { class: 'form-horizontal'}) do |f|
+    = f.input :title, label: "Ad Title"
+    = f.input :description, label: "Description"
+    = f.input :company, label: "Company/Seller"
+    = f.input :url, label: 'link to ad'
+    %br/
+    = f.button :submit
