@@ -16,4 +16,6 @@
 
 8. add a form to ads/_form.html.haml __ partial
 
-9.
+9. create ad view files
+
+10. add #edit && #destroy actions in ads_controller.rb

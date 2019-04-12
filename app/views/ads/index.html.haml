@@ -1,5 +1,5 @@
 - @ads.each do |ad|
-    %h2= ad.title
+    %h2= link_to ad.title, ad
     %p= ad.company
 
 = link_to "New Ad", new_ad_path

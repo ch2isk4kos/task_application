@@ -3,3 +3,5 @@
 %p= @ad.company
 
 = link_to "Home", root_path
+= link_to "Edit", edit_ad_path(@ad)
+= link_to "Delete", ad_path(@ad), method: :delete, data: { confirm: "Are You Sure?"}

@@ -29,10 +29,16 @@ class AdsController < ApplicationController
     end
 
     def update
+        if @ad.update(ad_params)
+            redirect_to @ad
+        else
+            render 'new'
+        end
     end
 
     def destroy
-
+        @ad.destroy
+        redirect_to root_path
     end
 
     private
