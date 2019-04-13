@@ -37,3 +37,9 @@
 18. add styling to application.css.scss
 
 19. add structure (navigation) to application.html.haml
+
+20. add devise to Gemfile
+
+21. $ rails generate devise:install
+
+#22. configure devise with haml

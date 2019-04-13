@@ -21,6 +21,8 @@ gem 'simple_form', '~> 4.1'
 gem 'bootstrap-sass', '~> 3.4'
 gem 'jquery-rails'
 gem 'haml', '~> 5.0'
+gem 'devise', '~> 4.6'
+gem 'html2haml', '~> 2.2'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
