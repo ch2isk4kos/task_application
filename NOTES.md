@@ -29,3 +29,11 @@
 14. $ rake db:migrate
 
 15. create Associations between Category --< Ad
+
+16. sort categories #index action in ads_controller.rb
+
+17. display sorted categories on index view file
+
+18. add styling to application.css.scss
+
+19. add structure (navigation) to application.html.haml

@@ -1,7 +1,11 @@
-%h1= @ad.title
-%p= @ad.description
-%p= @ad.company
+%jobs
+    .job
+        %h1= @ad.title
+        %p= @ad.description
+        %p= @ad.company
+        %button.btn.btn-default= link_to "Close Ad", @ad.url
 
-= link_to "Home", root_path
-= link_to "Edit", edit_ad_path(@ad)
-= link_to "Delete", ad_path(@ad), method: :delete, data: { confirm: "Are You Sure?"}
+#links
+    = link_to "Home", root_path, class: "btn btn-sm btn-default"
+    = link_to "Edit", edit_ad_path(@ad), class: "btn btn-sm btn-default"
+    = link_to "Delete", ad_path(@ad), method: :delete, data: { confirm: "Are You Sure?"}, class: "btn btn-sm btn-default"
