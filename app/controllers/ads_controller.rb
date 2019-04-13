@@ -3,7 +3,12 @@ class AdsController < ApplicationController
     before_action :find_ad, only: [:show, :edit, :update, :destroy]
 
     def index
-        @ads = Ad.all.order('created_at DESC')
+        if params[:category].blank?
+            @ads = Ad.all.order('created_at DESC')
+        else
+            @category_id = Category.find_by(name: params[:category]).id
+            @ads = Ad.where(category_id: @category_id).order('created_at DESC')
+        end
     end
 
     def show
